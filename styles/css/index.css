@@ -1,3 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@300;700&display=swap");
+.search {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-right: 60px;
+}
+.search--input {
+  border: none;
+  height: 45px;
+  width: 300px;
+  padding: 0 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px -7px #4C401C;
+  font-family: "spartan", Arial, Helvetica, sans-serif;
+  overflow: visible;
+}
+.search--input::placeholder {
+  overflow: visible;
+}
 
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin: 30px 0;
+  padding-top: 80px;
+}
+@media (max-width: 992px) {
+  .profile-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .profile-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.profile-grid--item {
+  background-color: #fff;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px -7px #4C401C;
+  overflow: hidden;
+}
+.profile-grid--item-img {
+  height: 150px;
+  background: url("https://lp.trucdev.fr/portraits/500/300/11") no-repeat center;
+  background-size: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.profile-grid--item-excerpt {
+  padding: 15px 20px;
+  height: 150px;
+}
+.profile-grid--item-excerpt--summary {
+  font-size: 0.8rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffd85f;
+  color: #343434;
+  font-family: "spartan", Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+body .wrapper {
+  max-width: 1600px;
+  margin: auto;
+  padding: 0 30px;
+}
 
 /*# sourceMappingURL=index.css.map */

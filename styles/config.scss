@@ -1,2 +1,24 @@
 // watch command:
 // sass --watch styles/index.scss:styles/css/index.css
+
+// Colors
+$primary-color: #ffd85f;
+$white: #fff;
+$base-gray: #343434;
+$shadow-color: #4C401C;
+
+// Typography
+$default-font: 'spartan';
+
+// Measurements
+$default-radius: 10px;
+
+// Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  l: 1200px,
+  xl: 1366px
+);

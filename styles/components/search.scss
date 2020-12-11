@@ -1,0 +1,20 @@
+.search {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-right: 60px;
+  &--input {
+    border: none;
+    height: 45px;
+    width: 300px;
+    padding: 0 20px;
+    border-radius: $default-radius;
+    box-shadow: 2px 2px 15px -7px $shadow-color;
+    font-family: $default-font, Arial, Helvetica, sans-serif;
+    overflow: visible;
+      &::placeholder {
+      overflow: visible;
+    }
+  }
+}
