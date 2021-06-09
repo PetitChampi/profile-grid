@@ -42,8 +42,10 @@
     &-excerpt {
       padding: 15px 20px;
       height: 150px;
+      overflow: auto;
       &--summary {
         font-size: .8rem;
+        margin-top: 5px;
       }
     }
   }

@@ -80,9 +80,11 @@
 .profile-grid--item-excerpt {
   padding: 15px 20px;
   height: 150px;
+  overflow: auto;
 }
 .profile-grid--item-excerpt--summary {
   font-size: 0.8rem;
+  margin-top: 5px;
 }
 
 * {
